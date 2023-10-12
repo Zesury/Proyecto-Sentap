@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Exo+2:wght@500&family=Montserrat+Alternates&display=swap');
+body {
+    font-family: 'Montserrat Alternates', cursive;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: -0.1em;
+    background-image: linear-gradient(to bottom right, #060216, #15062e, #01141a);
+}
+
+h1 {
+    padding-top: 6px;
+    height: 70px;
+    width: 1293px;
+    background-image: linear-gradient(to bottom right, #1e0d61, #351170, #054457);
+    font-family: 'Montserrat Alternates', cursive;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1PX solid WHITE;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    color: aliceblue;
+    margin: 0;
+}
+
+
+
+select {
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', cursive;
+    border: 2PX solid WHITE;
+    background-color: #996bee;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 32px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+
+}
+
+button {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Exo 2', cursive;
+    border: 2PX solid WHITE;
+    background-color: #763af5eb;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 33px;
+    width: 65px;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    cursor: pointer;
+    border: 2PX solid WHITE;
+    margin-inline-start: 20px;
+}
+
+
+.categoria {
+    margin-inline-start: 26px;
+    margin-block-start: 20px;
+    margin-block-end: 20PX;
+}
+
+#musica {
+    margin-top: -54px;
+    height: 54px;
+    width: 300px;
+}
+
+#chill {
+    margin-bottom: 29px;
+}
+
+#media {
+
+    font-family: 'Montserrat Alternates', cursive;
+    color: white;
+    font-size: 44px;
+}
+
+#Titulo {
+    color: white;
+    font-size: 44px;
+}
+
+#PieDePagina {
+    display: flex;
+    height: 175px;
+    width: 1286px;
+    background-image: linear-gradient(to bottom right, #31046b, #4f0202);
+    border: 3PX solid WHITE;
+    border-radius: 10px;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#derechos
+{
+    margin-top: 0px;
+}
+
+
+@media (max-width: 500px) {
+
+    .videos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video {
+        margin-block-start: 20px;
+        height: 180px;
+        width: 320px;
+
+    }
+    #Caja_de_emociones
+    {
+        margin-block-end: 60px;
+    }
+    #media
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #musica
+    {
+        width: 180px;
+    }
+    #PieDePagina
+    {
+        font-size: 18px;
+        width: 450px;
+    }
+    h1
+    {
+        height: 62px;
+        width: 454px;
+    }
+    #Titulo
+    {
+        font-size: 37px;
+    }
+}
+
+@media(max-width: 400px)
+{
+    #Titulo 
+    {
+        font-size: 28px;
+    }
+    h1 
+    {
+        height: 51px;
+        width: 374px;
+    }
+    #PieDePagina
+    {
+        height: 71px;
+        font-size: 12px;
+        width: 354px;
+    }
+}
